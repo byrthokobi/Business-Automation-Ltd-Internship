@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    padding: 0%;
+}
+
+.img-thumbnail {
+    border-left: 50rem;
+    border-right: 50rem;
+    border-top: 0rem;
+    border-bottom: 0rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.5rem; /* Increase font size */
+    margin-right: 20px; /* Add space between items */
+    font-weight: 500;
+    color: #1d1a1a;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 0 15px; /* Adjust padding as needed */
+    background-color: white; /* Add white background */
+    border-left: 5px solid white; /* Adjust border width as needed */
+    border-right: 5px solid white; /* Adjust border width as needed */
+}
+
+.logo {
+    height: 50px; /* Adjust logo height as needed */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.hero-section {
+    text-align: left;
+}
+
+.custom-heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.highlight {
+    color: rgb(85, 209, 168);
+}
+
+
+.line-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; /* Adjust as needed */
+    padding: 0 1rem; /* Adjust padding as needed */
+}
+
+.line-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+     /* Align with container max-width if necessary */
+    justify-content: space-between;
+}
+
+.custom-line {
+    flex-grow: 1;
+    border: none;
+    border-top: 4px solid #a19f9f; /* Adjust the line thickness and color as needed */
+    margin: 0 1rem; /* Adjust spacing around the line as needed */
+}
+
+.icon-group {
+    display: flex;
+    gap: 10px; /* Adjust spacing between icons as needed */
+}
+
+.icon-container {
+    background-color: rgb(136, 230, 209);
+    padding: 5px; /* Adjust padding as needed */
+     /* Makes the background circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 24px; /* Adjust the icon size as needed */
+    height: auto;
+    cursor: pointer;
+}
+
+input {
+    color: aquamarine;
+    background-color: blue;
+}
+input::placeholder {
+    color: aqua;
+    opacity: 1;
+}

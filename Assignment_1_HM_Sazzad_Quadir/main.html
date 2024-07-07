@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mico Hospital</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar py-2 bg-light">
+        <div class="container d-flex justify-content-left">
+            <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="aqua" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+              </svg> Call: +01 1234567890  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="aqua" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+              </svg> Email: demo@gmail.com 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="aqua" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg> Location</p>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: rgb(76, 231, 179);">
+            <div class="container-fluid">
+              <a class="logo-container" href="#" style="background-color: rgb(253, 253, 253);">
+                <img src="logo.png" class="img-thumbnail" alt="logo">
+              </a>
+              
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Treatment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    </ul>
+                </div>
+
+                <div class="navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-right d-flex justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="purple" class="bi bi-door-open-fill" viewBox="0 0 16 16">
+                                <path d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15zM11 2h.5a.5.5 0 0 1 .5.5V15h-1zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1"/>
+                              </svg> Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="purple" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                              </svg>  Sign Up </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                
+                </div>
+            </div>
+          </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero-section py-5 text-left">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+            <h1 class="display-4"><svg xmlns="http://www.w3.org/2000/svg" height="60" width="60" fill="cyan" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+              </svg></h1>
+            <h1 class="display-4 custom-heading">MICO
+                <br> 
+                <span class="highlight"> HOSPITAL</span>
+            </h1>
+            <p class="lead">The Best Hospital Service at the palm of your hands. From checking your old reports
+                to providing you with new ones, we are your one-stop solution.
+            </p>
+            <button class="btn btn-dark">Contact Us</button>
+            </div>
+            <div class="col text-right">
+                <img src="slider-img.jpg" height="400" width="400">
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Horizontal Line-->
+    <div class="line-container">
+        <div class="line-content">
+            <hr class="custom-line">
+            <div class="icon-group">
+                <div class="icon-container previous-icon">
+                    <img src="prev.png" alt="Previous" class="icon">
+                </div>
+                <div class="icon-container next-icon">
+                    <img src="next.png" alt="Next" class="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Appointment Section -->
+    <section class="appointment-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-left mb-4 custom-heading">
+                <u>BOOK</u> 
+                <span class="highlight"> 
+                    APPOINTMENT
+                </span>
+            </h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="patientName">Patient Name</label>
+                        <input type="text" class="form-control" id="patientName" placeholder="Patient Name">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="doctorName">Doctor's Name</label>
+                        <select id="doctorName" class="form-control">
+                            <option selected>Normal distribution</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="departmentName">Department's Name</label>
+                        <select id="departmentName" class="form-control">
+                            <option selected>Normal distribution</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="XXXXXXXXXX">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="symptoms">Symptoms</label>
+                        <input type="text" class="form-control" id="symptoms" placeholder="Symptoms">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="appointmentDate">Choose Date</label>
+                        <input type="date" class="form-control" id="appointmentDate">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-dark">Submit Now</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
