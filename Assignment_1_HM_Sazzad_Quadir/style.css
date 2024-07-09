@@ -90,11 +90,23 @@ body {
     cursor: pointer;
 }
 
-input {
+.form-control::placeholder {
     color: aquamarine;
-    background-color: blue;
+    opacity: 1; /* Ensure full opacity */
 }
-input::placeholder {
+
+/* For Mozilla Firefox */
+.form-control::-moz-placeholder {
+    color: aquamarine;
+    opacity: 1; /* Ensure full opacity */
+}
+
+/* For Internet Explorer */
+.form-control:-ms-input-placeholder {
     color: aqua;
-    opacity: 1;
+}
+
+/* For Edge */
+.form-control::-ms-input-placeholder {
+    color: aqua;
 }
