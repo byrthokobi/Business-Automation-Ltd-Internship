@@ -1,0 +1,74 @@
+# Basic PHP E-commerce System
+
+This is a basic e-commerce system built using PHP with Object-Oriented Programming (OOP) principles. The system allows users to browse products, add them to a shopping cart, and proceed to checkout. User data and product information are stored in JSON files, and session storage is used to maintain cart and user authentication states.
+
+## Features
+
+- **Product Browsing**: Users can browse a list of products loaded from a JSON file.
+- **Shopping Cart**: Users can add products to a shopping cart, view the cart, and remove items from it.
+- **Checkout Process**: Users can proceed to checkout, where they can view the final cart and complete their purchase.
+- **User Authentication**: Users can log in and log out. Authentication is handled by checking credentials stored in a JSON file.
+- **No Database Required**: All data is stored in JSON files, making the setup simple and easy to manage.
+
+## Project Structure
+
+```plaintext
+ecommerce/
+│
+├── css/
+│   └── styles.css          # CSS file for styling the project
+│
+├── data/
+│   ├── products.json       # JSON file containing product data
+│   └── users.json          # JSON file containing user data
+│
+├── views/
+│   ├── cart.php            # View for displaying the shopping cart
+│   ├── checkout.php        # View for displaying the checkout page
+│   ├── login.php           # View for the login page
+│   └── product_list.php    # View for displaying the product list
+│
+├── classes/
+│   ├── Product.php         # Product class handling product-related functionality
+│   ├── Cart.php            # Cart class managing shopping cart operations
+│   └── User.php            # User class handling authentication and user-related functionality
+│
+├── index.php               # Main entry point of the application, handles routing and actions
+├── README.md               # This README file
+└── .htaccess               # Optional: Configuration file for Apache server settings
+
+Getting Started
+Prerequisites
+Laragon: A local development environment for PHP. Download Laragon
+Web Browser: Any modern web browser (e.g., Chrome, Firefox)
+
+Start Laragon and ensure your project is accessible via http://localhost/ecommerce/.
+Usage
+Browse Products:
+
+Navigate to the homepage (index.php) to view a list of available products.
+Add to Cart:
+
+Click the "Add to Cart" button on any product to add it to your shopping cart.
+View Cart:
+
+Click on the "View Cart" link to see all items in your cart.
+Checkout:
+
+Proceed to checkout by clicking "Proceed to Checkout" from the cart page.
+User Login:
+
+Log in by navigating to the login page (index.php?page=login), entering your credentials, and submitting the form.
+
+Customization
+Product List: Edit the products.json file in the data/ directory to add, update, or remove products.
+User Credentials: Update the users.json file in the data/ directory to manage user accounts.
+
+Troubleshooting
+CSS Not Working: Ensure the styles.css file is correctly linked in the index.php and other views.
+Session Issues: Ensure sessions are enabled and correctly managed on your server.
+
+Acknowledgments
+Laragon: For providing a powerful and easy-to-use local development environment.
+PHP: For making web development approachable and fun with a focus on simplicity.
+
