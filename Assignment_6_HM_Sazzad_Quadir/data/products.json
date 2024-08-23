@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "name": "Apple iPhone 14 Pro",
+        "price": 1000.99,
+        "description": "Apple Flagship Mobile Phone",
+        "image": "image1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy S23 Ultra",
+        "price": 1199.99,
+        "description": "The Samsung Galaxy S23 Ultra comes with a 6.8-inch Dynamic AMOLED 2X display, Snapdragon 8 Gen 2 processor, and 108MP quad-camera setup. Available in Phantom Black, White, and Green.",
+        "image": "https://example.com/images/galaxys23ultra.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Sony WH-1000XM5 Wireless Headphones",
+        "price": 349.99,
+        "description": "Industry-leading noise-canceling headphones with up to 30 hours of battery life, touch sensor controls, and voice assistant compatibility. Available in Black and Silver.",
+        "image": "https://example.com/images/sonywh1000xm5.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Dell XPS 13 Laptop",
+        "price": 1299.99,
+        "description": "The Dell XPS 13 features a 13.4-inch FHD+ display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Ideal for professionals and students.",
+        "image": "https://example.com/images/dellxps13.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Apple MacBook Pro 16-inch",
+        "price": 2499.99,
+        "description": "Apple's MacBook Pro with M1 Pro chip, 16-inch Retina display, 16GB RAM, and 1TB SSD. Perfect for creative professionals.",
+        "image": "https://example.com/images/macbookpro16.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Microsoft Surface Pro 9",
+        "price": 1099.99,
+        "description": "The Microsoft Surface Pro 9 is a 2-in-1 device with a 13-inch touchscreen, Intel Core i5 processor, 8GB RAM, and 256GB SSD. Includes Surface Pen.",
+        "image": "https://example.com/images/surfacepro9.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Bose QuietComfort 45 Headphones",
+        "price": 329.99,
+        "description": "The Bose QuietComfort 45 wireless headphones offer superior noise cancellation, up to 24 hours of battery life, and comfortable ear cushions. Available in Black and White.",
+        "image": "https://example.com/images/boseqc45.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Google Pixel 7 Pro",
+        "price": 899.99,
+        "description": "Google Pixel 7 Pro features a 6.7-inch OLED display, Google Tensor chip, 12GB RAM, and a 50MP triple-camera system. Available in Stormy Black, Cloudy White, and Hazel.",
+        "image": "https://example.com/images/pixel7pro.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Apple iPad Pro 11-inch",
+        "price": 799.99,
+        "description": "Apple's iPad Pro 11-inch with M2 chip, Liquid Retina display, and 128GB storage. Supports Apple Pencil and Magic Keyboard.",
+        "image": "https://example.com/images/ipadpro11.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Sony PlayStation 5",
+        "price": 499.99,
+        "description": "Sony PlayStation 5 with 825GB SSD, ray tracing, and 4K gaming support. Includes DualSense wireless controller.",
+        "image": "https://example.com/images/ps5.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Nintendo Switch OLED Model",
+        "price": 349.99,
+        "description": "Nintendo Switch OLED model with 7-inch OLED screen, enhanced audio, and 64GB internal storage. Includes Joy-Con controllers.",
+        "image": "https://example.com/images/switcholed.jpg"
+      },
+      {
+        "id": 12,
+        "name": "HP Envy 15 Laptop",
+        "price": 1499.99,
+        "description": "HP Envy 15 laptop with Intel Core i7 processor, 16GB RAM, 512GB SSD, and NVIDIA GTX 1660 Ti graphics. Ideal for content creation.",
+        "image": "https://example.com/images/hpenvy15.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Apple Watch Series 8",
+        "price": 399.99,
+        "description": "Apple Watch Series 8 with 45mm case, always-on Retina display, ECG app, and blood oxygen sensor. Available in multiple colors.",
+        "image": "https://example.com/images/applewatch8.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Samsung Galaxy Watch 5",
+        "price": 299.99,
+        "description": "Samsung Galaxy Watch 5 with 44mm AMOLED display, GPS, and advanced health tracking features. Compatible with Android and iOS.",
+        "image": "https://example.com/images/galaxywatch5.jpg"
+      },
+      {
+        "id": 15,
+        "name": "GoPro HERO11 Black",
+        "price": 499.99,
+        "description": "GoPro HERO11 Black with 5.3K60 video, HyperSmooth 4.0 stabilization, and waterproof design. Perfect for action sports enthusiasts.",
+        "image": "https://example.com/images/goprohero11.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Canon EOS R6 Mirrorless Camera",
+        "price": 2499.99,
+        "description": "Canon EOS R6 full-frame mirrorless camera with 20.1MP sensor, 4K60 video, and Dual Pixel CMOS AF II. Ideal for professional photographers.",
+        "image": "https://example.com/images/canoneosr6.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Sony A7 IV Mirrorless Camera",
+        "price": 2699.99,
+        "description": "Sony A7 IV mirrorless camera with 33MP full-frame sensor, 4K60 video, and 5-axis in-body stabilization. Suitable for both photography and videography.",
+        "image": "https://example.com/images/sonya7iv.jpg"
+      },
+      {
+        "id": 18,
+        "name": "DJI Mavic 3 Drone",
+        "price": 2199.99,
+        "description": "DJI Mavic 3 drone with 4/3 CMOS Hasselblad camera, 46-minute flight time, and advanced obstacle avoidance. Ideal for aerial photography.",
+        "image": "https://example.com/images/djimavic3.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Logitech MX Master 3S Mouse",
+        "price": 99.99,
+        "description": "Logitech MX Master 3S wireless mouse with ergonomic design, advanced scroll wheel, and customizable buttons. Perfect for productivity.",
+        "image": "https://example.com/images/logitechmxmaster3s.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Corsair K95 RGB Platinum XT Keyboard",
+        "price": 199.99,
+        "description": "Corsair K95 RGB Platinum XT mechanical gaming keyboard with Cherry MX Speed switches, customizable RGB lighting, and macro keys.",
+        "image": "https://example.com/images/corsairk95xt.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Alienware Aurora R13 Gaming PC",
+        "price": 2499.99,
+        "description": "Alienware Aurora R13 gaming PC with Intel Core i9 processor, NVIDIA RTX 3080 graphics, 32GB RAM, and 1TB SSD. Built for extreme gaming.",
+        "image": "https://example.com/images/alienwarer13.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Apple AirPods Pro (2nd Gen)",
+        "price": 249.99,
+        "description": "Apple AirPods Pro with active noise cancellation, transparency mode, and spatial audio. Includes MagSafe charging case.",
+        "image": "https://example.com/images/airpodspro2.jpg"
+      },
+      {
+        "id": 23,
+        "name": "Amazon Echo Dot (5th Gen)",
+        "price": 49.99,
+        "description": "Amazon Echo Dot smart speaker with Alexa, improved sound quality, and voice control. Available in Charcoal, Glacier White, and Twilight Blue.",
+        "image": "https://example.com/images/echodot5.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Fitbit Charge 5",
+        "price": 179.99,
+        "description": "Fitbit Charge 5 fitness tracker with built-in GPS, heart rate monitor, and sleep tracking. Available in Black, Lunar White, and Steel Blue.",
+        "image": "https://example.com/images/fitbitcharge5.jpg"
+      },
+      {
+        "id": 25,
+        "name": "Instant Pot Duo 7-in-1",
+        "price": 99.99,
+        "description": "Instant Pot Duo 7-in-1 electric pressure cooker with 6-quart capacity, 14 one-touch programs, and stainless steel cooking pot.",
+        "image": "https://example.com/images/instantpotduo.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Dyson V15 Detect Cordless Vacuum",
+        "price": 699.99,
+        "description": "Dyson V15 Detect cordless vacuum with laser dust detection, up to 60 minutes of runtime, and advanced filtration. Includes multiple cleaning attachments.",
+        "image": "https://example.com/images/dysonv15.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Keurig K-Supreme Plus Coffee Maker",
+        "price": 159.99,
+        "description": "Keurig K-Supreme Plus single-serve coffee maker with multi-stream technology, adjustable brew strength, and 78-ounce water reservoir.",
+        "image": "https://example.com/images/keurigksupremeplus.jpg"
+      },
+      {
+        "id": 28,
+        "name": "Samsung Galaxy Tab S8",
+        "price": 849.99,
+        "description": "Samsung Galaxy Tab S8 with 11-inch LTPS TFT display, Snapdragon 8 Gen 1 processor, and S Pen included. Ideal for work and entertainment.",
+        "image": "https://example.com/images/galaxytabs8.jpg"
+      },
+      {
+        "id": 29,
+        "name": "Roku Streaming Stick 4K",
+        "price": 49.99,
+        "description": "Roku Streaming Stick 4K with HDR10+ support, voice remote with TV controls, and access to thousands of streaming channels.",
+        "image": "https://example.com/images/rokustick4k.jpg"
+      },
+      {
+        "id": 30,
+        "name": "LG OLED C2 Series 55-inch TV",
+        "price": 1499.99,
+        "description": "LG OLED C2 Series 55-inch 4K Smart TV with AI ThinQ, Dolby Vision IQ, and NVIDIA G-SYNC. Delivers stunning picture quality and immersive sound.",
+        "image": "https://example.com/images/lgoledc2.jpg"
+      }
+]
